@@ -1,0 +1,28 @@
+{
+    "name": "Datalab",
+    "build": {
+        "dockerfile": "../Dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.defaultInterpreterPath": "/opt/conda/bin/python"
+            },
+            "extensions": [
+                "EditorConfig.EditorConfig",
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-toolsai.jupyter",
+                "VisualStudioExptTeam.vscodeintellicode"
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:1": {},
+        "ghcr.io/devcontainers/features/git:latest": {},
+        "ghcr.io/devcontainers-contrib/features/isort:latest": {},
+        "ghcr.io/stuartleeks/dev-container-features/shell-history:latest": {}
+    },
+    "remoteUser": "jupyter"
+}
