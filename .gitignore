@@ -135,3 +135,6 @@ dmypy.json
 
 # Default notebook
 sandbox.ipynb
+
+# Data folder
+data
