@@ -131,3 +131,6 @@ dmypy.json
 # Database files
 .db
 .db.wal
+
+# Default notebook
+sandbox.ipynb
