@@ -7,7 +7,8 @@
     "customizations": {
         "vscode": {
             "settings": {
-                "python.defaultInterpreterPath": "/opt/conda/bin/python"
+                "python.defaultInterpreterPath": "/opt/conda/bin/python",
+                "python.analysis.typeCheckingMode": "basic"
             },
             "extensions": [
                 "EditorConfig.EditorConfig",
