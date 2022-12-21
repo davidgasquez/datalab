@@ -1,0 +1,5 @@
+data
+*.db
+*.db.tmp
+*.db.wal
+.git
