@@ -129,8 +129,9 @@ dmypy.json
 .pyre/
 
 # Database files
-.db
-.db.wal
+*.db
+*.db.wal
+*.db.tmp
 
 # Default notebook
 sandbox.ipynb
