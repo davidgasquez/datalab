@@ -4,5 +4,5 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends aria2
 
 RUN pip3 --disable-pip-version-check --no-cache-dir install \
-    duckdb \
+    duckdb datafusion deltalake \
     && rm -rf /tmp/pip-tmp
