@@ -1,4 +1,4 @@
-data
+datasets
 *.db
 *.db.tmp
 *.db.wal

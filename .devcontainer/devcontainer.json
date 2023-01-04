@@ -30,5 +30,11 @@
         "ghcr.io/devcontainers-contrib/features/isort:latest": {},
         "ghcr.io/stuartleeks/dev-container-features/shell-history:latest": {}
     },
+    "mounts": [
+        "source=${env:HOME}/.config/gcloud,target=/home/jupyter/.gcloud,type=bind,consistency=cached"
+    ],
+    "remoteEnv": {
+        "CLOUDSDK_CONFIG": "/home/jupyter/.gcloud"
+    },
     "remoteUser": "jupyter"
 }
