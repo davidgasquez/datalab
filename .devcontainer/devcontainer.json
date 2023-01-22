@@ -25,7 +25,7 @@
         }
     },
     "features": {
-        "ghcr.io/devcontainers/features/common-utils:1": {},
+        // "ghcr.io/devcontainers/features/common-utils:2": {},
         "ghcr.io/devcontainers/features/git:latest": {},
         "ghcr.io/devcontainers-contrib/features/isort:latest": {},
         "ghcr.io/stuartleeks/dev-container-features/shell-history:latest": {}
