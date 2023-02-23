@@ -11,7 +11,11 @@
                 "python.analysis.typeCheckingMode": "basic",
                 "python.formatting.provider": "none",
                 "[python]": {
-                    "editor.defaultFormatter": "ms-python.black-formatter"
+                    "editor.defaultFormatter": "ms-python.black-formatter",
+                    "editor.codeActionsOnSave": {
+                        "source.fixAll": true,
+                        "source.organizeImports": true
+                    }
                 }
             },
             "extensions": [
@@ -20,7 +24,9 @@
                 "ms-python.vscode-pylance",
                 "ms-toolsai.jupyter",
                 "VisualStudioExptTeam.vscodeintellicode",
-                "ms-python.black-formatter"
+                "ms-python.black-formatter",
+                "ms-python.isort",
+                "charliermarsh.ruff"
             ]
         }
     },
