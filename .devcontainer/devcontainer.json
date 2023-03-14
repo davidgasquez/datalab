@@ -26,12 +26,13 @@
                 "VisualStudioExptTeam.vscodeintellicode",
                 "ms-python.black-formatter",
                 "ms-python.isort",
-                "charliermarsh.ruff"
+                "charliermarsh.ruff",
+                "joyceerhl.vscode-pyodide"
             ]
         }
     },
     "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {},
         "ghcr.io/stuartleeks/dev-container-features/shell-history:latest": {}
-    },
-    "remoteUser": "jupyter"
+    }
 }
