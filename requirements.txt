@@ -1,0 +1,9 @@
+ipywidgets
+matplotlib
+numpy
+pandas
+tqdm
+duckdb
+pyarrow
+deltalake
+polars
