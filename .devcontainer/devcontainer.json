@@ -9,9 +9,9 @@
             "settings": {
                 "python.defaultInterpreterPath": "/opt/conda/bin/python",
                 "python.analysis.typeCheckingMode": "basic",
-                "python.formatting.provider": "ms-python.black-formatter",
+                "python.formatting.provider": "black",
                 "[python]": {
-                    "editor.defaultFormatter": "ms-python.black-formatter",
+                    "editor.formatOnSave": true,
                     "editor.codeActionsOnSave": {
                         "source.fixAll": true,
                         "source.organizeImports": true
