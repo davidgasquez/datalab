@@ -17,7 +17,8 @@
                         "source.fixAll": true,
                         "source.organizeImports": true
                     }
-                }
+                },
+                "notebook.formatOnSave.enabled": true
             },
             "extensions": [
                 "EditorConfig.EditorConfig",
