@@ -138,3 +138,6 @@ sandbox.ipynb
 
 # Datasets folder
 datasets
+
+# Random artifacts
+*.chroma
