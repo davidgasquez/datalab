@@ -29,7 +29,8 @@
                 "ms-python.black-formatter",
                 "ms-python.isort",
                 "charliermarsh.ruff",
-                "joyceerhl.vscode-pyodide"
+                "joyceerhl.vscode-pyodide",
+                "ms-toolsai.datawrangler"
             ]
         }
     },

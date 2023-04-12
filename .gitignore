@@ -141,3 +141,6 @@ datasets
 
 # Random artifacts
 *.chroma
+
+# Keep gitkeep
+!.gitkeep
