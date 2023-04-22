@@ -9,10 +9,7 @@
             "settings": {
                 "python.defaultInterpreterPath": "/opt/conda/bin/python",
                 "python.analysis.typeCheckingMode": "basic",
-                "python.formatting.provider": "none",
                 "[python]": {
-                    "editor.formatOnSave": true,
-                    "editor.defaultFormatter": "ms-python.black-formatter",
                     "editor.codeActionsOnSave": {
                         "source.fixAll": true,
                         "source.organizeImports": true
@@ -26,7 +23,6 @@
                 "ms-python.vscode-pylance",
                 "ms-toolsai.jupyter",
                 "VisualStudioExptTeam.vscodeintellicode",
-                "ms-python.black-formatter",
                 "ms-python.isort",
                 "charliermarsh.ruff",
                 "joyceerhl.vscode-pyodide",
