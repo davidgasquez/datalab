@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/python:3.10
+FROM mcr.microsoft.com/devcontainers/python:3.11
 
 # Install aria2
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \

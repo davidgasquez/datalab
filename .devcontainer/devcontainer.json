@@ -7,8 +7,6 @@
     "customizations": {
         "vscode": {
             "settings": {
-                "python.defaultInterpreterPath": "/opt/conda/bin/python",
-                "python.analysis.typeCheckingMode": "basic",
                 "[python]": {
                     "editor.codeActionsOnSave": {
                         "source.fixAll": true,
@@ -32,6 +30,7 @@
     },
     "features": {
         "ghcr.io/devcontainers/features/common-utils:2": {},
+        "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {},
         "ghcr.io/stuartleeks/dev-container-features/shell-history:latest": {}
     }
 }

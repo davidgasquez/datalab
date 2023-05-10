@@ -1,4 +1,6 @@
 ipykernel
+nbformat
+nbclient
 ipywidgets
 matplotlib
 numpy
