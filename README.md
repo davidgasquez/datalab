@@ -1,5 +1,7 @@
 # :alembic: Datalab
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/davidgasquez/datalab)
+
 A local and devcontainer friendly alternative to Google Colab.
 
 ## :feather: Features
