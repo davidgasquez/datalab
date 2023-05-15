@@ -12,3 +12,5 @@ deltalake
 polars
 pygwalker
 frictionless
+regex
+altair
